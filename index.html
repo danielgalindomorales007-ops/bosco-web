@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bosco — accesorios seleccionados para acompañar tu estilo." />
+    <title>Bosco — Accesorios que van contigo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="topbar">ENVÍOS A TODA COLOMBIA <span>·</span> ESCRÍBENOS Y PIDE EL TUYO</div>
+    <header class="header">
+      <a class="brand" href="#inicio" aria-label="Bosco, inicio">BOSCO<span>®</span></a>
+      <nav aria-label="Navegación principal">
+        <a href="#coleccion">Colección</a>
+        <a href="#nosotros">Nosotros</a>
+      </nav>
+      <a class="nav-contact" href="https://wa.me/573175097469?text=Hola%20Bosco%2C%20quiero%20conocer%20sus%20productos." target="_blank" rel="noreferrer">WhatsApp <span>↗</span></a>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">ACCESORIOS SELECCIONADOS</p>
+          <h1>El detalle que<br /><em>completa</em> tu look.</h1>
+          <p class="intro">Piezas con estilo, hechas para acompañarte todos los días.</p>
+          <a class="button dark" href="#coleccion">Ver colección <span>↓</span></a>
+        </div>
+        <div class="hero-image-wrap">
+          <img src="bolso-bosco.png" alt="Bolso crossbody blanco con correa bicolor" />
+          <div class="image-tag"><span>01</span> LA PIEZA ESENCIAL</div>
+        </div>
+      </section>
+
+      <section class="value-strip" aria-label="Beneficios">
+        <p>ESTILO QUE ACOMPAÑA</p><i></i><p>ATENCIÓN PERSONALIZADA</p><i></i><p>ENVÍOS EN COLOMBIA</p>
+      </section>
+
+      <section class="collection" id="coleccion">
+        <div class="section-head">
+          <div><p class="eyebrow">DESTACADO</p><h2>Tu nuevo<br /><em>imprescindible.</em></h2></div>
+          <p class="section-note">Un bolso versátil, ligero y listo para darle un toque especial a cualquier plan.</p>
+        </div>
+        <article class="product-card">
+          <div class="product-photo"><img src="bolso-bosco.png" alt="Bolso crossbody blanco Bosco" /><span class="pill">DISPONIBLE</span></div>
+          <div class="product-info">
+            <div class="product-title"><div><p class="eyebrow">BOSCO EDIT</p><h3>Bolso Crossbody Blanco</h3></div><p class="price">$185.000 <small>COP</small></p></div>
+            <p class="product-description">Un diseño limpio con correa ajustable que se adapta a tu ritmo. Ideal para llevar lo esencial con actitud.</p>
+            <div class="product-actions">
+              <div class="quantity" aria-label="Cantidad"><button type="button" id="minus" aria-label="Disminuir cantidad">−</button><output id="qty">1</output><button type="button" id="plus" aria-label="Aumentar cantidad">+</button></div>
+              <a class="button dark buy-button" id="buyButton" href="https://wa.me/573175097469" target="_blank" rel="noreferrer">Lo quiero <span>↗</span></a>
+            </div>
+            <p class="order-note">Al hacer clic te comunicaremos por WhatsApp para confirmar tu pedido.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="about" id="nosotros">
+        <p class="eyebrow">SOBRE BOSCO</p>
+        <p class="about-text">Creemos que los accesorios no son un extra: son la forma más simple de hacer tuyo cada look.</p>
+        <a class="text-link" href="https://www.instagram.com/bosco_encargos/" target="_blank" rel="noreferrer">Síguenos en Instagram <span>↗</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand" href="#inicio">BOSCO<span>®</span></a>
+      <p>HECHO PARA IR CONTIGO</p>
+      <div><a href="https://www.instagram.com/bosco_encargos/" target="_blank" rel="noreferrer">@bosco_encargos</a><a href="https://wa.me/573175097469" target="_blank" rel="noreferrer">WhatsApp</a></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
